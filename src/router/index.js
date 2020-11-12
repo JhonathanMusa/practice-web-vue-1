@@ -8,17 +8,17 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue')
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/features',
+    name: 'Features',
+    component: () => import(/* webpackChunkName: "features" */ '../views/Features.vue')
   },
   {
-    path: '/services',
-    name: 'Services',
-    component: () => import(/* webpackChunkName: "services" */ '../views/Services.vue')
+    path: '/lifestyle',
+    name: 'Lifestyle',
+    component: () => import(/* webpackChunkName: "lifestyle" */ '../views/Lifestyle.vue')
   }
 ]
 
