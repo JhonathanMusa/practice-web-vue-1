@@ -1,29 +1,73 @@
 <template>
   <div id="app">
-    <b-navbar toggleable="md" type="dark" variant="danger">
-      <b-container>
-        <b-navbar-brand href="#">
-          <img src="logo.png" alt="" />
-        </b-navbar-brand>
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-        <b-collapse is-nav id="nav-collapse">
-          <b-navbar-nav class="ml-auto">
-            <b-nav-item href="/">Home</b-nav-item>
-            <b-nav-item-dropdown text="Features">
-              <b-dropdown-item href="Lifestyle">CATEGORY PAGES</b-dropdown-item>
-              <b-dropdown-item href="Lifestyle">POST STYLES</b-dropdown-item>
-              <b-dropdown-item href="Lifestyle">PAGES</b-dropdown-item>
-            </b-nav-item-dropdown>
-            <b-nav-item href="Lifestyle">Lifestyle</b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-container>
-    </b-navbar>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
 
-    <b-container>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Features
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="card" style="width: 18rem">
+        <img src="upload/blog/c7.jpg" />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
       <router-view />
-    </b-container>
-
-    <b-img src="upload/blog/home5/sl2.jpg" fluid-grow></b-img>
+    </div>
   </div>
 </template>
