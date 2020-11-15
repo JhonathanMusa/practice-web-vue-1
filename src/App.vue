@@ -35,10 +35,12 @@
                 Features
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#"
+                  ><small> CATEGORY PAGES </small></a
+                >
+                <a class="dropdown-item" href="#"><small>POST STYLES</small></a>
+                <!-- <div class="dropdown-divider"></div> -->
+                <a class="dropdown-item" href="#"><small>PAGES</small></a>
               </div>
             </li>
             <li class="nav-item active">
@@ -53,7 +55,7 @@
       <div class="row">
         <div class="col-4">
           <div class="card" style="width: 18rem">
-            <img src="upload/blog/c7.jpg" />
+            <img src="upload/blog/c6.jpg" />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
@@ -79,7 +81,7 @@
         </div>
         <div class="col-4">
           <div class="card" style="width: 18rem">
-            <img src="upload/blog/c7.jpg" />
+            <img src="upload/blog/c8.jpg" />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">
