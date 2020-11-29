@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-ligth bg-ligth">
       <button
         class="navbar-toggler"
         type="button"
@@ -34,11 +34,11 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="Cards"
-                ><small> CARDS </small></a
+                ><small> Cards </small></a
               >
-              <a class="dropdown-item" href="#"><small>POST STYLES</small></a>
+              <a class="dropdown-item" href="#"><small>Services</small></a>
               <!-- <div class="dropdown-divider"></div> -->
-              <a class="dropdown-item" href="#"><small>PAGES</small></a>
+              <a class="dropdown-item" href="#"><small>Pages</small></a>
             </div>
           </li>
           <li class="nav-item active">

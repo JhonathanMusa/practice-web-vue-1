@@ -1,7 +1,7 @@
 <template>
   <div class="app">
-      <h1 class="text-center">Cards Page</h1>
     <Header />
+      <h1 class="text-center">Cards Page</h1>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
