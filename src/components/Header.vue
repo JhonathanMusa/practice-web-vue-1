@@ -36,7 +36,7 @@
               <a class="dropdown-item" href="Cards"
                 ><small> Cards </small></a
               >
-              <a class="dropdown-item" href="#"><small>Services</small></a>
+              <a class="dropdown-item" href="Products"><small>Products</small></a>
               <!-- <div class="dropdown-divider"></div> -->
               <a class="dropdown-item" href="#"><small>Pages</small></a>
             </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <Header />
-      <h1 class="text-center">Cards Page</h1>
+      <h1 class="text-center mb-5">Cards Page</h1>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -91,15 +91,19 @@
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
+import Footer from '@/components/Footer.vue';
 export default {
   name: "Cards",
   components: {
     Header,
+    Footer
   },
 };
+    Footer
 </script>

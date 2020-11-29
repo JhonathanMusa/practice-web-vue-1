@@ -27,8 +27,8 @@
       </div>
     </div>
     <div class="row mt-5">
-      <div class="col-lg-12 ">
-        <h3 class="text-center">Article</h3>
+      <div class="col-lg-6 col-md-6">
+        <h3 class="text-center">Post</h3>
         <p class="text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
           pariatur aliquid natus dolore obcaecati quidem blanditiis odit
@@ -43,8 +43,8 @@
           maiores labore tempore. Quidem, aliquam?
         </p>
       </div>
-      <div class="col-lg-12 ">
-        <h3 class="text-center">Article</h3>
+      <div class="col-lg-6 col-md-6">
+        <h3 class="text-center">Post</h3>
         <p class="text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
           pariatur aliquid natus dolore obcaecati quidem blanditiis odit
