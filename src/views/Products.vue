@@ -2,6 +2,52 @@
   <div class="app">
     <Header />
     <h1 class="text-center">Products</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 ">
+          <div class="card" style="width: 18rem">
+            <img src="../../public/laptop.jpg" alt="" />
+            <div class="card-body">
+              <div class="card-title">
+                <h5>Laptop Rog</h5>
+                <div class="card-text">
+                  <p><del>$ 650 </del> / <ins>$ 550</ins></p>
+                  <a href="#" class="btn btn-success btn-block">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="card" style="width: 18rem">
+            <img src="../../public/laptop.jpg" alt="" />
+            <div class="card-body">
+              <div class="card-title">
+                <h5>Laptop Rog</h5>
+                <div class="card-text">
+                  <p><del>$ 650 </del> / <ins>$ 550</ins></p>
+                  <a href="#" class="btn btn-success btn-block">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="card" style="width: 18rem">
+            <img src="../../public/laptop.jpg" alt="" />
+            <div class="card-body">
+              <div class="card-title">
+                <h5>Laptop Rog</h5>
+                <div class="card-text">
+                  <p><del>$ 650 </del> / <ins>$ 550</ins></p>
+                  <a href="#" class="btn btn-success btn-block">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <Footer />
   </div>
 </template>
