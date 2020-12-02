@@ -1,8 +1,8 @@
 <template>
   <div class="app">
     <Header />
-    <h1 class="text-center">Products</h1>
     <div class="container">
+    <h1 class="text-center mb-5">Products</h1>
       <div class="row">
         <div class="col-lg-4 col-md-4 ">
           <div class="card" style="width: 18rem">
