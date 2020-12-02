@@ -33,12 +33,11 @@
               Features
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="Posts"
-                ><small> Posts </small></a
+              <a class="dropdown-item" href="Posts"><small> Posts </small></a>
+              <a class="dropdown-item" href="Products"
+                ><small>Products</small></a
               >
-              <a class="dropdown-item" href="Products"><small>Products</small></a>
               <!-- <div class="dropdown-divider"></div> -->
-              <a class="dropdown-item" href="#"><small>Pages</small></a>
             </div>
           </li>
           <li class="nav-item active">
