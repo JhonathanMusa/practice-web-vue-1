@@ -2,45 +2,51 @@
   <div class="app">
     <Header />
     <div class="container">
-    <h1 class="text-center mb-5">Products</h1>
+      <h1 class="text-center mb-5">Products</h1>
       <div class="row">
-        <div class="col-lg-4 col-md-4 ">
-          <div class="card" style="width: 18rem">
+        <div class="col-lg-4 col-md-4">
+          <div class="card rounded" style="width: 18rem">
             <img src="../../public/laptop.jpg" alt="" />
             <div class="card-body">
               <div class="card-title">
                 <h5>Laptop Rog</h5>
                 <div class="card-text">
                   <p><del>$ 650 </del> / <ins>$ 550</ins></p>
-                  <a href="#" class="btn btn-success btn-block">Buy Now</a>
+                  <a href="#" class="btn btn-success btn-block">
+                    <i class="fas fa-shopping-cart"></i> Buy Now</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
-          <div class="card" style="width: 18rem">
+          <div class="card rounded" style="width: 18rem">
             <img src="../../public/laptop.jpg" alt="" />
             <div class="card-body">
               <div class="card-title">
                 <h5>Laptop Rog</h5>
                 <div class="card-text">
                   <p><del>$ 650 </del> / <ins>$ 550</ins></p>
-                  <a href="#" class="btn btn-success btn-block">Buy Now</a>
+                  <a href="#" class="btn btn-success btn-block">
+                    <i class="fas fa-shopping-cart"></i> Buy Now</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
-          <div class="card" style="width: 18rem">
+          <div class="card rounded" style="width: 18rem">
             <img src="../../public/laptop.jpg" alt="" />
             <div class="card-body">
               <div class="card-title">
                 <h5>Laptop Rog</h5>
                 <div class="card-text">
                   <p><del>$ 650 </del> / <ins>$ 550</ins></p>
-                  <a href="#" class="btn btn-success btn-block">Buy Now</a>
+                  <a href="#" class="btn btn-success btn-block">
+                    <i class="fas fa-shopping-cart"></i> Buy Now</a
+                  >
                 </div>
               </div>
             </div>
