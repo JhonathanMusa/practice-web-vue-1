@@ -62,6 +62,21 @@
         </p>
       </div>
     </div>
+    <div class="row mt-5">
+      <h3 class="text-center">Title</h3>
+      <p class="text-justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quibusdam
+        officiis sapiente quae, dolores, distinctio consectetur, placeat modi
+        dolore quaerat deserunt natus. Officiis totam nemo hic possimus maiores
+        cumque ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+        quibusdam officiis sapiente quae, dolores, distinctio consectetur,
+        placeat modi dolore quaerat deserunt natus. Officiis totam nemo hic
+        possimus maiores cumque ea! Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Hic quibusdam officiis sapiente quae, dolores,
+        distinctio consectetur, placeat modi dolore quaerat deserunt natus.
+        Officiis totam nemo hic possimus maiores cumque ea!
+      </p>
+    </div>
     <Footer />
   </div>
 </template>
